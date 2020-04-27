@@ -8,7 +8,11 @@ This is my first digital portfolio attempt
 2. HTML
 3. CSS
 
-## To be done
+## Modifications to be made
 
 - [ ] Add CSS
 - [ ] Add JavaScript
+
+## Contridutions
+
+Danny Heeney
