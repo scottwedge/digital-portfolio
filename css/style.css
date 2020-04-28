@@ -1,3 +1,71 @@
-body {
-    color: red;
+/*
+types of CSS
+
+Inline CSS - Styling individual tags (not great, long winded)
+Internal CSS - styling done in the file that's being worked on between <style> </style> tags - have to copy over multiple pages
+External CSS - 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    background-color: crimson;
+    align-items: left;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px; /* why are pixels not a great choice for size? vh, vw, %, em, cm, pt */
+    /*30px = top bottom... 20px = left right */
+    
+}
+
+.navbar ul li { /* This is targetting the .navbar class with ul and all uls with an li */
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.navbar li a {
+    text-decoration: none; /* removes underlines from tags */
+    padding: 15px 5px; /* top and bottom THEN left and right */
+
+}
+
+.mainContent {
+    text-align: center;
+    font-size: 40px;
+}
+
+.box {
+    box-sizing: border-box;
+    /* padding: 25px 50px; /* top + bottom & left + right */
+    padding: 50px; /*everything */
+    padding: 50px 25px 30px; /*top, right, bottom, left */
+    padding: 10px 15px 16px 17px; /* top, right, bottom, left - clockwise */
+}
+
+.threeColumns {
+    float: left;
+    width: 33.33;
+    padding: 0px;
+}
+
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .threeColumns{
+        width: 100%;
+    }
+    .navbar {
+        background-color: darkgreen;
+    }
 }
