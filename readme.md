@@ -13,6 +13,6 @@ This is my first digital portfolio attempt
 - [ ] Add CSS
 - [ ] Add JavaScript
 
-## Contridutions
+## Contributions
 
 Danny Heeney
